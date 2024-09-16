@@ -1,0 +1,86 @@
+/* Estilo del contenedor principal */
+.one-forth {
+    background-image: url('/images/shop.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 60px 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+    max-width: 450px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  /* Overlay para oscurecer ligeramente la imagen de fondo */
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(8, 0, 0, 0.99);
+    border-radius: 10px;
+    z-index: 1;
+  }
+  
+  /* Contenedor del formulario */
+  .appointment-wrap {
+    position: relative;
+    z-index: 2;
+    color: #000000;
+    text-align: center;
+  }
+  
+  /* Subtítulo y título del formulario */
+  .appointment-wrap .subheading {
+    font-size: 18px;
+    color: #C5873E;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  .appointment-wrap h3 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  /* Estilo de los campos de entrada */
+  .form-control {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 12px;
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+  
+  /* Botón de envío */
+  .btn-primary {
+    background-color: #C5873E;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #C5873E;
+  }
+  
+  /* Icono del select */
+  .select-wrap .icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
+  
+  /* Aseguramos que el contenido no se salga del contenedor */
+  .one-forth, .appointment-form {
+    box-sizing: border-box;
+  }
+  
